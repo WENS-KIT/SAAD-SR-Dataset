@@ -70,11 +70,11 @@ python3 gui.py
 ```
 Launches an interactive labeling tool:
 
- View predictions
+- View predictions
 
-Adjust/add bounding boxes
+- Adjust/add bounding boxes
 
- Save corrected annotations
+ - Save corrected annotations
 
 🛰️ Designed for efficient correction across altitude variations and weather conditions
 
