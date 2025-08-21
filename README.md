@@ -76,15 +76,50 @@ Launches an interactive labeling tool:
 
  - Save corrected annotations
 
-🛰️ Designed for efficient correction across altitude variations and weather conditions
+-  Designed for efficient correction across altitude variations and weather conditions
 
-📊 Benchmark Protocols
+## 📊 Benchmark Protocols
 
 Evaluation scripts and trained models will be released shortly. The dataset supports:
 
  Altitude-aware detection
 
+ ## YOLOv8-SR: Altitude-Aware Detection Model
+
+The YOLOv8-SR model is a customized version of YOLOv8 with scale-awareness built in via altitude conditioning. This is achieved by fusing altitude information with intermediate features in the detection head to bias predictions according to flight height.
+
+Key features:
+
+- Supports discrete altitude inputs (e.g., 15m, 25m, 45m)
+
+-  Uses Altitude Embedding modules to influence scale-dependent layers
+
+- Improves precision and recall on small objects at high altitudes
+
+- Trained on SAAD-SR with fine-grained annotation consistency
+
+##  Scale Robustness Index (SRI)
+
+The Scale Robustness Index (SRI) is a novel metric introduced in SAAD-SR to quantify detection stability across altitude variations.
+
+Definition:
+
+SRI measures how consistently a model detects the same object across changes in altitude. Higher values imply better generalization across scale.
+
+- SRI is computed per class and averaged across scenes
+
+- Evaluates both prediction overlap and instance continuity
+
+- Complements traditional metrics like mAP with altitude sensitivity
+
+This metric enables fair comparison between altitude-aware and conventional detectors.
+
+ 
+
  Weather-conditioned generalization
 
  Scale Robustness Index (SRI)
+
+
+ 
 
