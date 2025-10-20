@@ -105,7 +105,21 @@ Key features:
 
 - Trained on SAAD-SR with fine-grained annotation consistency
 
+  ## YOLOv8-SR: Altitude-Aware Detection Model
+  Steps to train the YOLOv8-SR model
+```bash
+1- Download the ultralytics-yolov8 from source
+**Base framework adapted from [Ultralytics YOLO](https://github.com/ultralytics)
+2- Put all the script form YOLO-SR in the corresponding ultralytics folders
+3-run the script:
+
+python3 train_YOLO_SR.py
+
+```
+
+
 ##  Scale Robustness Index (SRI)
+
 
 The Scale Robustness Index (SRI) is a novel metric introduced in SAAD-SR to quantify detection stability across altitude variations.
 
