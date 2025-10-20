@@ -113,7 +113,7 @@ Key features:
 4. Run the script:
 
 ```bash
-python3 train_YOLO_SR.py
+python3 YOLO-SR/train_YOLO_SR.py
 
 
 ```
@@ -143,5 +143,9 @@ This metric enables fair comparison between altitude-aware and conventional dete
  Scale Robustness Index (SRI)
 
 
- 
+ ```bash
+python3 YOLO-SR/SRI.py
+
+
+```
 
