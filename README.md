@@ -68,6 +68,10 @@ python3 annotator.py --image_dir dataset/images --out_dir dataset/labels --weigh
 python3 gui.py 
 
 ```
+
+![GUI](assets/3.png)
+
+
 Launches an interactive labeling tool:
 
 - View predictions
