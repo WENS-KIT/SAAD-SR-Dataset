@@ -105,15 +105,16 @@ Key features:
 
 - Trained on SAAD-SR with fine-grained annotation consistency
 
-  ## YOLOv8-SR: Altitude-Aware Detection Model
-  Steps to train the YOLOv8-SR model
-```bash
-1- Download the ultralytics-yolov8 from source
-**Base framework adapted from [Ultralytics YOLO](https://github.com/ultralytics)
-2- Put all the script form YOLO-SR in the corresponding ultralytics folders
-3-run the script:
+### Steps to train the YOLOv8-SR model
 
+1. Download the ultralytics-yolov8 from [source](https://github.com/ultralytics)
+2. **Base framework adapted from [Ultralytics YOLO](https://github.com/ultralytics)**
+3. Put all the scripts from YOLO-SR in the corresponding Ultralytics folders  
+4. Run the script:
+
+```bash
 python3 train_YOLO_SR.py
+
 
 ```
 
