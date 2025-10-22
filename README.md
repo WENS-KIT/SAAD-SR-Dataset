@@ -22,7 +22,7 @@ samples from SAAD-SR dataset
 > 📦 http://192.168.63.98:5000/sharing/e9M5ZYPbo
 ## 💾 Trained Models
 
-> 🧠 **Coming soon**
+> 🧠 http://192.168.63.98:5000/sharing/6MiDeGJ5c
 
 ---
 
