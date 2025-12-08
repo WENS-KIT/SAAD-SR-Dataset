@@ -2,7 +2,7 @@
 
 This repository contains the official dataset and benchmark utilities for the paper:
 
-**SAAD-SR: A Scale-Aware Aerial Benchmark for Learning Robust Object Representations Under UAV-Induced Scale Shifts**
+**SAAD-SR: SAAD-SR: A Multi-Altitude Aerial Object Detection Benchmark Evaluated Using a Scale-Aware Distillation Detector**
 
 SAAD-SR is designed to evaluate object detection robustness in aerial scenarios with altitude-induced scale variation and environmental diversity. The dataset includes:
 
