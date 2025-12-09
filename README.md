@@ -1,4 +1,4 @@
-# SAAD-SR Dataset
+# SAAD-SR Altitude-Aware Aerial Object Detection Benchmark
 
 This repository contains the official dataset and benchmark utilities for the paper:
 
