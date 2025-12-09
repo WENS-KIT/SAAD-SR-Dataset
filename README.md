@@ -18,8 +18,8 @@ samples from SAAD-SR dataset
 ![GUI](assets/sample.png)
 
 ## 🔗 Dataset Download
-
-> 📦 http://192.168.63.98:5000/sharing/e9M5ZYPbo
+- SAAD-SR Dataset to train YOLO-SR
+> 📦 https://o365kumoh-my.sharepoint.com/:u:/g/personal/20235042_office_kumoh_ac_kr/IQDpQnICljhYSrdJC2QzmZaIAVmZA06JtqojfvFsmTvIIAc?e=fiDZi6
 ## 💾 Trained Models
 
 > 🧠 http://192.168.63.98:5000/sharing/6MiDeGJ5c
