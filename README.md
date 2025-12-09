@@ -101,6 +101,21 @@ python3 annotator.py --image_dir dataset/images --out_dir dataset/labels --weigh
 
 ```
 
+## Full-Dataset Performance Comparison on SAAD-SR
+
+| **Model**       | **Precision** | **Recall** | **F1-Score** | **mAP@50** |
+|-----------------|---------------|------------|--------------|------------|
+| Leaf-YOLO       | 0.516         | 0.750      | 0.540        | 0.713      |
+| RT-DETR         | 0.635         | 0.860      | 0.640        | 0.622      |
+| UAV-DETR-RS50   | 0.795         | 0.594      | 0.680        | 0.627      |
+| YOLOv8x         | 0.620         | 0.730      | 0.630        | 0.611      |
+| YOLOv9c         | 0.642         | 0.840      | 0.630        | 0.632      |
+| YOLO12l         | 0.641         | 0.750      | 0.640        | 0.664      |
+| YOLO11l         | 0.815         | 0.890      | 0.780        | 0.600      |
+| **YOLO-SR**     | **0.739**     | **0.860**  | **0.630**    | **0.658**  |
+
+
+
 ## Launches an interactive labeling tool:
 
  -  View predictions
