@@ -154,7 +154,7 @@ python3 annotator.py --image_dir dataset/images --out_dir dataset/labels --weigh
 
 ## 3. Launch GUI for Label Correction
 ```bash
-python3 gui.py 
+python3 Annotator.py
 
 ```
 
