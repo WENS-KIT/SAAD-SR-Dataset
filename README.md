@@ -26,6 +26,50 @@ samples from SAAD-SR dataset
 
 ---
 
+
+## SAAD-SR dataset structure
+```bash
+
+SAAD-SR/
+├── 15m/
+│   ├── train/
+│   │   ├── images/
+│   │   └── labels/
+│   ├── val/
+│   │   ├── images/
+│   │   └── labels/
+│   ├── test/
+│   │   ├── images/
+│   │   └── labels/
+│   └── 15m.yaml
+│
+├── 25m/
+│   ├── train/
+│   │   ├── images/
+│   │   └── labels/
+│   ├── val/
+│   │   ├── images/
+│   │   └── labels/
+│   ├── test/
+│   │   ├── images/
+│   │   └── labels/
+│   └── 25m.yaml
+│
+├── 45m/
+│   ├── train/
+│   │   ├── images/
+│   │   └── labels/
+│   ├── val/
+│   │   ├── images/
+│   │   └── labels/
+│   ├── test/
+│   │   ├── images/
+│   │   └── labels/
+│   └── 45m.yaml
+│
+└── classes.yaml   # Defines all SAAD-SR class names
+```
+
 ## Repository Structure
 
 ```bash
