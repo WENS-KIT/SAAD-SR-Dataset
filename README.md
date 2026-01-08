@@ -97,7 +97,7 @@ python3 data.py --video_dir path/to/videos --out_dir dataset/images --fps 1
 ```
 ## 2. Generate Labels with Pretrained Weights
 ```bash
-python3 annotator.py --image_dir dataset/images --out_dir dataset/labels --weights models/yolov8-sr.pt
+python3 Annotator.py --image_dir dataset/images --out_dir dataset/labels --weights models/yolov8-sr.pt
 
 ```
 
